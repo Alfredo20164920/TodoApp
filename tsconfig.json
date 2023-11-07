@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"module": "es6",
+		"target": "es5",
+		"jsx": "react",
+		"allowJs": true,
+		"moduleResolution": "node",
+		"baseUrl": "src",
+		"rootDir": "src",
+		"sourceMap": true,
+		"allowSyntheticDefaultImports": true,
+		"typeRoots": ["node_modules/@types", "src/types"]
+	},
+	"include": ["src", "src/**/*", ".d.ts"]
+}
